@@ -1,0 +1,13 @@
+server:
+      port : 8081
+      context-path : /springboot
+
+cupSize:
+      A : A+prod
+
+age:
+      a : 18
+
+Other :
+      work : 白领+prod
+      size : 175

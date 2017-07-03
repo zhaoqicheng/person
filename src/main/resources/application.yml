@@ -1,0 +1,30 @@
+server:
+      port : 8080
+      context-path : /springboot
+
+cupSize:
+      A : A
+
+age:
+      a : 18
+
+Other :
+      work : 白领
+      size : 175
+
+spring:
+      profiles :
+        active : dev
+      datasource :
+        driver-class-name : com.mysql.jdbc.Driver
+        url : jdbc:mysql://127.0.0.1:3306/zqc_test
+        username : root
+        password : root
+
+      jpa:
+        hibernate:
+          ddl-auto: update
+        show-sql: true
+
+      session:
+        store-type: none
